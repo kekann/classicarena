@@ -1,9 +1,11 @@
 #pragma once
-#include <string>
+#include "CardAttributes.h"
 class Card
 {
 public:
-	Card();
+	Card(CardAttributes ca)
+		:
+		ca_{ ca } {}
 
 	std::string GetName() const;
 	std::string GetEffect() const;
@@ -11,13 +13,9 @@ public:
 	std::string GetAttribute() const;
 	int GetCost() const;
 
-	void SetCost();
+	void SetCost(int newCost);
 private:
-	const std::string name;
-	const std::string effect;
-	const std::string classReestriction;
-	const std::string attribute;
-	int cost;
+	CardAttributes ca_;
 
 };
 
