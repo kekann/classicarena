@@ -1,11 +1,11 @@
 #pragma once
 #include <vector>
 #include "Card.h"
-class Deck
+class Graveyard
 {
 public:
-	Card GetCard();
+	Graveyard();
 private:
-	std::vector<Card*> deck;
+	std::vector<Card*> graveyard;
 };
 

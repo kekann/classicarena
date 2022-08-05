@@ -139,16 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Board.cpp" />
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="classicarena.cpp" />
     <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="Graveyard.cpp" />
+    <ClCompile Include="Hand.cpp" />
+    <ClCompile Include="Hero.cpp" />
     <ClCompile Include="Minion.cpp" />
     <ClCompile Include="Spell.cpp" />
     <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Board.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="Deck.h" />
+    <ClInclude Include="Graveyard.h" />
+    <ClInclude Include="Hand.h" />
+    <ClInclude Include="Hero.h" />
     <ClInclude Include="Minion.h" />
     <ClInclude Include="Spell.h" />
     <ClInclude Include="Weapon.h" />
