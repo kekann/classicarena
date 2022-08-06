@@ -1,11 +1,11 @@
-#pragma once
+#pragma onceStats
 #include "Card.h"
-#include "MinionsStats.h"
+#include "Stats.h"
 class Minion :
     public Card
 {
 public:
-    Minion(MinionsStats ms, CardAttributes ca)
+    Minion(Stats ms, CardAttributes ca)
         :
         ms_ {ms},
         Card{ ca } {}
@@ -16,7 +16,7 @@ public:
     void SetAttack(int newAttack);
     void SetHealth(int newHealth);
 private:
-    MinionsStats ms_;
+    Stats ms_;
 
 };
 

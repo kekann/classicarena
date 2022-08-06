@@ -148,7 +148,7 @@
     <ClCompile Include="Hand.cpp" />
     <ClCompile Include="Hero.cpp" />
     <ClCompile Include="Minion.cpp" />
-    <ClCompile Include="MinionsStats.cpp" />
+    <ClCompile Include="Stats.cpp" />
     <ClCompile Include="Spell.cpp" />
     <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
@@ -161,7 +161,7 @@
     <ClInclude Include="Hand.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="Minion.h" />
-    <ClInclude Include="MinionsStats.h" />
+    <ClInclude Include="Stats.h" />
     <ClInclude Include="Spell.h" />
     <ClInclude Include="Weapon.h" />
   </ItemGroup>

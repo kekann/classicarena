@@ -1,5 +1,5 @@
 #pragma once
-struct MinionsStats
+struct Stats
 {
 	int attack;
 	int health;

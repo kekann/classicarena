@@ -4,7 +4,8 @@
 class Deck
 {
 public:
-	Card GetCard();
+	Card* GetCard(int CardsSlotInDeck);
+	void RemoveCardFromDeck(int CardsSlotInDeck);
 private:
 	std::vector<Card*> deck;
 };

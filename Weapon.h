@@ -1,5 +1,6 @@
 #pragma once
 #include "Card.h"
+#include "Stats.h"
 class Weapon :
     public Card
 {
@@ -8,10 +9,9 @@ public:
     int GetAttack() const;
     int GetDurability() const;
 
-    void SetAttack();
-    void SetDurability();
+    void SetAttack(int attack);
+    void SetDurability(int health);
 private:
-    int attack;
-    int durability;
+    Stats ws_
 };
 

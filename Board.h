@@ -10,10 +10,11 @@ class Board
 {
 public:
 	Board();
-	Minion GetMinion();
-	Hero GetHero();
-	Weapon GetWeapon();
+	Minion GetMinion() const;
+	Hero GetHero() const;
+	Weapon GetWeapon() const;
 
+	void EmplaceMinion(Minion* m); /// start with this;
 	void ToGraveyard(Graveyard& grave, Card* card);
 
 private:
